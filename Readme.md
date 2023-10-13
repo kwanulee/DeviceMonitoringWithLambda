@@ -67,9 +67,9 @@
 	        String temperature = reported.getAsJsonObject().get("temperature").getAsString();
 	        double temp = Double.valueOf(temperature);
 	
-	        final String AccessKey="AKIA435ITC3CFRXUR4XX";
-	        final String SecretKey="Z5arMI0VuPKR6xgxu0OxbrXlMgBYUpe+lZros+0H";
-	        final String topicArn="arn:aws:sns:ap-northeast-2:884579964612:MyTopic";
+	        final String AccessKey="your-accesskey";
+	        final String SecretKey="your-secretkey";
+	        final String topicArn="your-topicarn";
 	
 	        BasicAWSCredentials awsCreds = new BasicAWSCredentials(AccessKey, SecretKey);
 	        AmazonSNS sns = AmazonSNSClientBuilder.standard()
