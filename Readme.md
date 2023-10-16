@@ -31,6 +31,8 @@
 	```
 	dependencies {
 		 ...
+		 implementation platform('com.amazonaws:aws-java-sdk-bom:1.12.529')
+	    implementation 'com.amazonaws:aws-java-sdk-sns'
 	    implementation 'com.google.code.gson:gson:2.9.0'
 	    ...
 	}
