@@ -152,12 +152,12 @@
 
 ### 단계4: 테스트
 
-1. [AWS\_IoT\_DHT11](release/AWS_IoT_DHT11.zip)을 다운로드하여 Arduino IDE에서 실행한다.
+1. [AWS\_IoT\_DHT11](https://github.com/kwanulee/AWS_IoT_DHT11/archive/refs/heads/main.zi)을 다운로드하여 Arduino IDE에서 실행한다.
 2. arduino_secrets.h에서 다음 항목을 사용 환경에 맞도록 수정후, 빌드/업로드 한다.
    - SECRET\_SSID: 무선랜 아이디
    - SECRET\_PASS: 무선랜 패스워드
    - SECRET\_BROKER: AWS IoT broker 엔드포인트
-   - SECRET\_CERTIFICATE: 인증서 ([2.6절](#2.6) 참조)
+   - SECRET\_CERTIFICATE: 인증서 
 3. 아두이노 IDE의 시리얼 모니터를 열고, 접속이 제대로 이루어지는 지 확인해 본다.
    ![](figures/run1.png)
 4. DHT-11 센서의 측정값이 26도를 초과하는 경우에 이메일이 수신되는 지 확인한다.
